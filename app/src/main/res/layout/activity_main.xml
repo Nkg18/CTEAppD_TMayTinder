@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TMay Tinder!"
+        android:layout_gravity="center"
+        android:id="@+id/tv1"
+        android:padding="10dp"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1_1"
+        android:layout_gravity="center"
+        android:hint="Enter your name"
+        android:padding="20dp"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1_2"
+        android:layout_gravity="center"
+        android:hint="Enter your bio"
+        android:padding="20dp"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textSize="15sp"
+        android:text="GO!"/>
+
+</LinearLayout>
